@@ -5,10 +5,12 @@ GEC-EB: Mitigating Exposure Bias in Grammatical Error Correction with Data Augme
 The program is tested under pytorch 1.7.1, CUDA version 11.7 
 
 1. Download required data and install required software
+
 	1.1. Generate the C4 200M synthetic data by following https://github.com/google-research-datasets/C4_200M-synthetic-dataset-for-grammatical-error-correction
-	1.2. go to the fairseq folder and install fairseq, pytorch 1.7.1 and errant
-	1.3. Download the NUCLE from https://sterling8.d2.comp.nus.edu.sg/nucle_download/nucle.php ; FCE from https://www.cl.cam.ac.uk/research/nl/bea2019st/data/fce_v2.1.bea19.tar.gz ; CLang8 from https://github.com/google-research-datasets/clang8 ; Download W&I dataset from https://www.cl.cam.ac.uk/research/nl/bea2019st/ ; Downlaod CoNLL-2013 dataset from  https://www.comp.nus.edu.sg/~nlp/conll13st/release2.3.1.tar.gz and CoNLL-2014 dataset from https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz ; Download CWEB dataset from https://github.com/SimonHFL/CWEB
-	1.4. Install the fairseq inside the fairseq folder
+	
+	1.2. Download the NUCLE from https://sterling8.d2.comp.nus.edu.sg/nucle_download/nucle.php ; FCE from https://www.cl.cam.ac.uk/research/nl/bea2019st/data/fce_v2.1.bea19.tar.gz ; CLang8 from https://github.com/google-research-datasets/clang8 ; Download W&I dataset from https://www.cl.cam.ac.uk/research/nl/bea2019st/ ; Downlaod CoNLL-2013 dataset from  https://www.comp.nus.edu.sg/~nlp/conll13st/release2.3.1.tar.gz and CoNLL-2014 dataset from https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz ; Download CWEB dataset from https://github.com/SimonHFL/CWEB
+	
+	1.3. Install the fairseq inside the fairseq folder
 	```
 	cd fairseq
 	pip3 install --editable ./
