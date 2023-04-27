@@ -8,7 +8,7 @@ The program is tested under pytorch 1.7.1, CUDA version 11.7
 
 	1.1. Generate the C4 200M synthetic data by following https://github.com/google-research-datasets/C4_200M-synthetic-dataset-for-grammatical-error-correction
 	
-	1.2. Download the NUCLE from https://sterling8.d2.comp.nus.edu.sg/nucle_download/nucle.php ; FCE from https://www.cl.cam.ac.uk/research/nl/bea2019st/data/fce_v2.1.bea19.tar.gz ; CLang8 from https://github.com/google-research-datasets/clang8 ; Download W&I dataset from https://www.cl.cam.ac.uk/research/nl/bea2019st/ ; Downlaod CoNLL-2013 dataset from  https://www.comp.nus.edu.sg/~nlp/conll13st/release2.3.1.tar.gz and CoNLL-2014 dataset from https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz ; Download CWEB dataset from https://github.com/SimonHFL/CWEB
+	1.2. Download the NUCLE from https://sterling8.d2.comp.nus.edu.sg/nucle_download/nucle.php ; FCE from https://www.cl.cam.ac.uk/research/nl/bea2019st/data/fce_v2.1.bea19.tar.gz ; CLang8 from https://github.com/google-research-datasets/clang8 ; Download W&I dataset from https://www.cl.cam.ac.uk/research/nl/bea2019st/ ; Downlaod CoNLL-2013 dataset from  https://www.comp.nus.edu.sg/~nlp/conll13st/release2.3.1.tar.gz and CoNLL-2014 dataset from https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz ;
 	
 	1.3. Install the fairseq inside the fairseq folder
 	```
@@ -18,6 +18,7 @@ The program is tested under pytorch 1.7.1, CUDA version 11.7
 Note all the scripts are inside train-scripts folder.
 
 2. Pretrain and Train the Transformer-big model
+
 	2.1 Pass the path for target sentences into tok+bpe+pre.sh to generate the bpe using the subword_nmt package (https://github.com/rsennrich/subword-nmt)
 	```
 	./tok+bpe+pre.sh
@@ -41,6 +42,7 @@ Note all the scripts are inside train-scripts folder.
 	./train.sh model/train preprocessed/train/data path/to/pretrained/checkpoint
 	```
 3. Generate augmented sentence
+
 	3.1. Use downloaded checkpoint to make predicitions on the training set (need to specify):
 	```
 	./predict.sh 0 path/to/source/training/sentence "candidate_data" path/to/downloaded/checkpoint output/directory
@@ -67,7 +69,8 @@ Note all the scripts are inside train-scripts folder.
 	mv candi.5 neg-5/train.tgt
 	```
 	3.3. Copy the train.src, valid.src and valid.tgt to neg-1, neg-2, neg-3, neg-4, neg-5 folders
-	3.4. Create the count for the number of candidates:
+	
+	5.4. Create the count for the number of candidates:
 	```
 	python valid_count.py --candi_path path/to/your/source/training/data/folder --file_name output/file/name --count numner/of/candidates/you/selected
 	```
