@@ -1,0 +1,6 @@
+# ninja log v5
+0	134	1647229432770776172	/home/hannan/workspace/working/exposure-bias-debug/fairseq/build/temp.linux-x86_64-3.7/fairseq/clib/libbleu/module.o	cd1007a41f896ae7
+0	327	1647229432962774782	/home/hannan/workspace/working/exposure-bias-debug/fairseq/build/temp.linux-x86_64-3.7/fairseq/clib/libbleu/libbleu.o	ab35adc994fe47dd
+0	3380	1647229436506749141	/home/hannan/workspace/working/exposure-bias-debug/fairseq/build/temp.linux-x86_64-3.7/fairseq/data/data_utils_fast.o	e9950bef000a31be
+0	4049	1647229440722718640	/home/hannan/workspace/working/exposure-bias-debug/fairseq/build/temp.linux-x86_64-3.7/fairseq/data/token_block_utils_fast.o	f4775e1a8b7b4e04
+0	12895	1647229453790624124	/home/hannan/workspace/working/exposure-bias-debug/fairseq/build/temp.linux-x86_64-3.7/fairseq/clib/libnat/edit_dist.o	b42c0edd0e7b70cd
