@@ -8,7 +8,7 @@ The program is tested under pytorch 1.7.1, CUDA version 11.7
 
 	1.1. Generate the C4 200M synthetic data by following https://github.com/google-research-datasets/C4_200M-synthetic-dataset-for-grammatical-error-correction
 	
-	1.2. Download the NUCLE from https://sterling8.d2.comp.nus.edu.sg/nucle_download/nucle.php ; FCE from https://www.cl.cam.ac.uk/research/nl/bea2019st/data/fce_v2.1.bea19.tar.gz ; CLang8 from https://github.com/google-research-datasets/clang8 ; Download W&I dataset from https://www.cl.cam.ac.uk/research/nl/bea2019st/ ; Downlaod CoNLL-2013 dataset from  https://www.comp.nus.edu.sg/~nlp/conll13st/release2.3.1.tar.gz and CoNLL-2014 dataset from https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz ;
+	1.2. Download the [NUCLE](https://sterling8.d2.comp.nus.edu.sg/nucle_download/nucle.php); [FCE](https://www.cl.cam.ac.uk/research/nl/bea2019st/data/fce_v2.1.bea19.tar.gz); [CLang8](https://github.com/google-research-datasets/clang8); Download [W&I ](https://www.cl.cam.ac.uk/research/nl/bea2019st/) ; Downlaod [CoNLL-2013](https://www.comp.nus.edu.sg/~nlp/conll13st/release2.3.1.tar.gz) and [CoNLL-2014] (https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz) ;
 	
 	1.3. Install the fairseq inside the fairseq folder
 	```
