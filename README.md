@@ -1,4 +1,4 @@
-#GEC-EB: Mitigating Exposure Bias in Grammatical Error Correction with Data Augmentation and Reweighting
+# GEC-EB: Mitigating Exposure Bias in Grammatical Error Correction with Data Augmentation and Reweighting
 
 > Hannan Cao, Wenmian Yang, Hwee Tou Ng. Mitigating Exposure Bias in Grammatical Error Correction with Data Augmentation and Reweighting. In EACL 2023. 
 
